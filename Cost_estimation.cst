@@ -1,0 +1,73 @@
+998 Type:           SystemStar estimate
+0   Written:        01-11-19 15:17:18
+900 File Version:   9003
+901 SW Version:     Demo
+902 Build:          3.0.3.1003
+904 Sequence Number:00218144760506481414247022046
+905 Version:        SystemStar 3.0 Demo
+906 Serial Number:  83 - 01126                              
+estcreate "Dealership Management System"
+dbselect "COCOMO_II.2000_Waterfall"
+calcmodel intermediate
+prec 5
+flex 2
+resl 4
+team 5
+pmat 4
+wsname *
+sced      low
+amcf *
+wsstartpoint 2
+rename "Component1"
+ACAP  very hi
+AEXP     high
+DATA     high
+PCAP  very hi
+STOR     high
+TIME     high
+TOOL  very hi
+CD00     high
+CD01     high
+CD02     high
+CD03  very hi
+CD04      low
+wsslocdist y  0 1        5000
+increment 1
+set auto on
+910 Lines:                       42
+911 Characters:                 696
+912 File Size:                  990
+913 Checksum 1:                  24
+914 Checksum 2:                 126
+915 Checksum 3: 0462263737455038417
+1000 "Dealership Management System"
+1001 "    "
+1002 152
+1003   85
+1004   1.1400
+1006       4.8526
+1007       4.8526
+1008   0.2744
+1009       4.8501
+1010       4.8501
+1011         5000
+1012         5000
+1013    1.0334
+1014    0.3047
+1015 2
+1016 5
+1017 2
+1018 4
+1019 5
+1020 4
+1021    0
+1022    2.9400
+1023   0.91000
+1024   1.00000
+1025    3.6700
+1026   0.28000
+1027   0.20000
+1028   0.12340
+1029   0.00000
+1030 s
+1031 ""
